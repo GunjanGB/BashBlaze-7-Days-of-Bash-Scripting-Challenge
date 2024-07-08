@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# First line of the script is the shebang which tells the system how to execute.
+#This line is comeented which won't get displayed when script runs.
+
+# Task  2: Echo
+echo "Wlcome to day 1 of Bash Script Challenge"
+
+# Task  3: Variables
+variable1="Hello"
+variable2="Learners"
+
+# Task  4: Using Variables
+greeting="$variable1, $variable2!"
+echo "$greeting Welcome to Day 1 of Bash scripting challenge!"
+
+# Task  5: Using Built-in Variables
+echo "My current location - $PWD"
+echo "My home directory - $HOME"
+echo "My hostname - $HOSTNAME"
+
+# Task  6: Wildcards
+echo "Files with .txt extension in the current directory:"
+ls *.txt
+
+# Wildcards : Wildcard characters in Unix/Linux allow the matching of files in an abstracted way.
+#Rather than having to perfectly match a file or directory’s exact name and casing, you can insert wildcards to allow variations and match multiple files.
